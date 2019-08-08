@@ -75,5 +75,17 @@ Blockly.defineBlocksWithJsonArray([
     'output': 'Number',
     'style': 'math_blocks',
     'inputsInline': true
+  },
+  {
+    'type': 'get_extend',
+    'message0': '%{BKY_GET_EXTEND} %1 %{BKY_GET_EXTEND_2}',
+    'args0': [{
+      'type': 'input_value',
+      'name': 'index',
+      'check': 'Number',
+    }],
+    'output': 'Number',
+    'style': 'math_blocks',
+    'inputsInline': true
   }
 ]);

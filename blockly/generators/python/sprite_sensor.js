@@ -44,3 +44,10 @@ Blockly.Python['get_speed'] = function(block) {
              '])';
   return [code, Blockly.Python.ORDER_NONE];
 };
+
+Blockly.Python['get_extend'] = function(block) {
+  var code = '=bm_master.get_extend(client=bm_clients[' +
+             Blockly.Python.valueToCode(block, 'index', Blockly.Python.ORDER_ATOMIC) +
+             '])';
+  return [code, Blockly.Python.ORDER_NONE];
+};

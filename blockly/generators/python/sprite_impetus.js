@@ -1,6 +1,6 @@
 'use strict';
 
-goog.provide('Blockly.Python.sprite_basic');
+goog.provide('Blockly.Python.sprite_impetus');
 goog.require('Blockly.Python');
 
 Blockly.Python['set_servo'] = function(block) {

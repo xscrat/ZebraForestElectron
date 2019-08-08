@@ -1,6 +1,6 @@
 'use strict';
 
-goog.provide('Blockly.Python.sprite_basic');
+goog.provide('Blockly.Python.sprite_comm');
 goog.require('Blockly.Python');
 
 Blockly.Python['send_uart'] = function(block) {

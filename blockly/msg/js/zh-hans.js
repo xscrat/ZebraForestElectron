@@ -435,6 +435,9 @@ Blockly.Msg["PROCEDURES_HUE"] = "290";
 Blockly.Msg["COLOUR_HUE"] = "20";
 Blockly.Msg["VARIABLES_DYNAMIC_HUE"] = "310";
 
+Blockly.Msg["BASIC_INPUT"] = "基本输入"
+Blockly.Msg["BASIC_OUTPUT"] = "基本输出"
+
 Blockly.Msg["GET_CLIENTS"] = "获取精灵设备列表";
 Blockly.Msg["GET_POWER"] = "获取";
 Blockly.Msg["GET_POWER_2"] = "号精灵电量";
@@ -466,6 +469,8 @@ Blockly.Msg["GET_PRESSURE"] = "获取";
 Blockly.Msg["GET_PRESSURE_2"] = "号精灵大气压强";
 Blockly.Msg["GET_SPEED"] = "获取";
 Blockly.Msg["GET_SPEED_2"] = "号精灵速度";
+Blockly.Msg["GET_EXTEND"] = "获取";
+Blockly.Msg["GET_EXTEND_2"] = "号精灵扩展模块值";
 
 Blockly.Msg["SET_SERVO"] = "设置";
 Blockly.Msg["SET_SERVO_2"] = "号精灵上的舵机为";
@@ -501,6 +506,7 @@ Blockly.Msg["CATCOLOUR"] = "颜色"
 Blockly.Msg["CATVARIABLES"] = "变量"
 Blockly.Msg["CATFUNCTIONS"] = "函数"
 
+Blockly.Msg["CATSPRITEBASICIO"] = "精灵基础输入输出"
 Blockly.Msg["CATSPRITEBASIC"] = "精灵基础块"
 Blockly.Msg["CATSPRITESENSOR"] = "精灵传感器"
 Blockly.Msg["CATSPRITEIMPETUS"] = "精灵动力"

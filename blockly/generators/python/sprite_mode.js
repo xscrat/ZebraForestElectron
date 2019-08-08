@@ -1,6 +1,6 @@
 'use strict';
 
-goog.provide('Blockly.Python.sprite_basic');
+goog.provide('Blockly.Python.sprite_mode');
 goog.require('Blockly.Python');
 
 Blockly.Python['set_normal'] = function(block) {

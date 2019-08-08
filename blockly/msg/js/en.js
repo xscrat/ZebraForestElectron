@@ -435,6 +435,9 @@ Blockly.Msg["PROCEDURES_HUE"] = "290";
 Blockly.Msg["COLOUR_HUE"] = "20";
 Blockly.Msg["VARIABLES_DYNAMIC_HUE"] = "310";
 
+Blockly.Msg["BASIC_INPUT"] = "basic_input"
+Blockly.Msg["BASIC_OUTPUT"] = "basic_output"
+
 Blockly.Msg["GET_CLIENTS"] = "get_clients";
 Blockly.Msg["GET_POWER"] = "get_power";
 Blockly.Msg["GET_POWER_2"] = "";
@@ -466,6 +469,8 @@ Blockly.Msg["GET_PRESSURE"] = "get_pressure";
 Blockly.Msg["GET_PRESSURE_2"] = "";
 Blockly.Msg["GET_SPEED"] = "get_speed";
 Blockly.Msg["GET_SPEED_2"] = "";
+Blockly.Msg["GET_EXTEND"] = "get_extend";
+Blockly.Msg["GET_EXTEND_2"] = "";
 
 Blockly.Msg["SET_SERVO"] = "set_servo";
 Blockly.Msg["SET_SERVO_2"] = "";
@@ -500,6 +505,7 @@ Blockly.Msg["CATCOLOUR"] = "Colour"
 Blockly.Msg["CATVARIABLES"] = "Colour"
 Blockly.Msg["CATFUNCTIONS"] = "Colour"
 
+Blockly.Msg['CATSPRITEBASICIO'] = "SpriteBasicIO"
 Blockly.Msg["CATSPRITEBASIC"] = "SpriteBasic"
 Blockly.Msg["CATSPRITESENSOR"] = "SpriteSensor"
 Blockly.Msg["CATSPRITEIMPETUS"] = "SpriteImpetus"
