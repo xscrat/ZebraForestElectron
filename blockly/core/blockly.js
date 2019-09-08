@@ -398,17 +398,13 @@ Blockly.confirm = function(message, callback) {
   callback(window.confirm(message));
 };
 
-/**
- * Wrapper to window.prompt() that app developers may override to provide
- * alternatives to the modal browser window. Built-in browser prompts are
- * often used for better text input experience on mobile device. We strongly
- * recommend testing mobile when overriding this.
- * @param {string} message The message to display to the user.
- * @param {string} defaultValue The value to initialize the prompt with.
- * @param {!function(string)} callback The callback for handling user response.
- */
 Blockly.prompt = function(message, defaultValue, callback) {
-  callback(window.prompt(message, defaultValue));
+  var prompt = require('electron-prompt');
+  prompt({title: '', label: message, type: 'input'}).then(
+    (name)=>{
+      callback(name);
+    }
+  )
 };
 
 /**
